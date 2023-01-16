@@ -1,0 +1,2 @@
+1.Qualified exports - exporting of packages to chosen modules
+   Example in module-info: exports [module classes] to [module1],[module2]... ;
