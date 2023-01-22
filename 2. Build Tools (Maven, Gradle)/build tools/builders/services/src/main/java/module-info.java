@@ -1,3 +1,4 @@
 module services {
-    exports services;
+    requires utils;
+    exports com.builders.services;
 }

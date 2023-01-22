@@ -1,12 +1,11 @@
 package com.builders.admin;
 
-import com.builders.services.BuilderService;
+import com.builders.services.BuilderService;;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Properties;
-
 public class AdminEntryPoint {
 
     public static void main(String[] args) {
