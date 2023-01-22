@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':services')
+    implementation project(path: ':services')
+    testImplementation 'junit:junit:4.13.2'
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'builders'
+
+include ':admin', ':web', ':services', ':utils'

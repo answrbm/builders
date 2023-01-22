@@ -1,4 +1,4 @@
 module web {
     requires services;
-    requires javax.servlet.api;
+    requires static javax.servlet.api;
 }
