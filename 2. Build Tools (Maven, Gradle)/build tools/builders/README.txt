@@ -1,9 +1,7 @@
 Run the commands from the root project directory
 
 Maven:
-1. mvn compile
-2. mvn install -pl admin -am
-3. mvn install -pl web -am
+1. mvn package
 
 Maven testing:
 1. mvn test
