@@ -1,5 +1,17 @@
 plugins {
     id 'java'
+    id 'war'
+}
+
+ext.moduleName = 'web'
+compileJava {
+    inputs.property('moduleName', moduleName)
+    doFirst {
+        options.compilerArgs = [
+            '--module-path', classpath.asPath
+        ]
+        classpath = files()
+    }
 }
 
 repositories {
@@ -7,7 +19,14 @@ repositories {
 }
 
 dependencies {
-    implementation project(':services')
+    implementation project(':utils')
     implementation project(path: ':services')
-    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testImplementation 'junit:junit:4.13.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+    compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+}
+
+test {
+    useJUnitPlatform()
 }

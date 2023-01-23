@@ -1,0 +1,4 @@
+Jenkins credentials:
+	Username: ansar_bektassov
+	Password: 123
+	

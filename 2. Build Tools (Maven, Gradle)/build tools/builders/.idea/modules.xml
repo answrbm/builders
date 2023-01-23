@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admin/builders.admin.iml" filepath="$PROJECT_DIR$/.idea/modules/admin/builders.admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/builders.services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/builders.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils/builders.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils/builders.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/builders.web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/builders.web.iml" />
+    </modules>
+  </component>
+</project>
