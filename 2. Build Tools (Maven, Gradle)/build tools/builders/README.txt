@@ -5,9 +5,3 @@ Maven:
 
 Maven testing:
 1. mvn test
-
-Gradle:
-1. gradlew build
-
-Gradle testing:
-1. gradlew test

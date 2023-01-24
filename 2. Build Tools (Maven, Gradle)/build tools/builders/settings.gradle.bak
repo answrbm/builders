@@ -1,5 +1,0 @@
-rootProject.name = 'builders'
-include 'admin'
-include 'web'
-include 'services'
-include 'utils'
